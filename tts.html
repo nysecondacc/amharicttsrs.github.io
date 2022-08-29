@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amharic Text to Speech</title>
+	<link rel="stylesheet" type="text/css" href="tts.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="main">
+		<ul>
+				<li><a href="home.html" class="notactive">Home</a></li>
+				<li class="active"><a href="tts.html">Text to Speech</a></li>
+				<li><a href="stt.html" class="notactive">Speech to Text</a></li>
+				<li><a href="#" class="notactive">About</a></li>
+		</ul>
+	</div>
+	
+	<div class="logo">
+		<img src="images/logotts.png" height="250">
+	</div >
+
+	<div class="btn-holder">
+		        <center>
+		        <textarea id = "holder" placeholder="  Write your text here"></textarea> 
+			    </center>
+				<input type="file" id = "file" hidden>
+				<button type="button" class="btn-upload" onclick= "upload()" >
+							<p class="fa fa-upload"> upload file </p> 
+				</button>
+              <div class = "btn-generate">
+				  <img src="images/generate.png" id ="generate" onclick="generate()"></img>
+				  <div class = "audio">
+
+				      <audio  id =  "aud" src="" type="audio/mpeg" controls > </audio>
+				  </div>
+			  </div>  
+	</div>
+	<h1 id = "filelink" src = "ለሉሊላ">ለሉሊላ</h1>
+
+
+		
+<script src="tts.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+	background-image: url(images/bg.jpg);
+	height: 100vh;
+	background-size: cover;
+
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+    color: #ED3100;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+    border-radius: 20px;
+}
+
+ul li a.notactive:hover{
+    border-radius: 20px;
+	color: white;
+	background-color: #ED3100;
+}
+
+ul li.active a{
+	color: #000;
+}
+
+.logo img{
+	width: 30%;
+	height: auto;
+}
+.logo{
+ margin-left: 40%;
+
+}
+
+.btn-upload{
+	cursor: pointer;
+	margin-top: 1%;
+	margin-left: 86%;
+    background-color: transparent ;
+    border-width: 0px;
+    border-radius: 15px;
+	transition: 0.6s ease;
+}
+.btn-upload :hover{
+	opacity: 50%;
+}
+
+#playBTN{
+	width: 15%;
+	height: auto;
+}
+#generate{
+	width: 15%;
+	height: auto;
+	cursor: pointer
+}
+#holder{
+	width: 90%;
+	height:200px;
+	border-radius: 7px;
+	margin-top: 5%;
+	padding: 5px;
+	border: white;
+}
+.row{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.block{
+	width: 100px;
+	display: inline-block;
+		padding: 0px 150px;
+}
+.btn-generate{
+	margin-left: 5%;
+}
+.btn-holder{
+	background-color: #eef2fb;
+	width: 60%;
+	margin-left: 20%;
+	display: list-item;
+	border-radius: 30px;
+}
+.upload{
+	padding: 0px 10px;
+
+}
+.btn-generate .audio audio{
+	border: #ED3100;
+	border-width: 15px;
+	color: aliceblue;
+	display : none;
+	margin-left: 30%;
+}
+#filelink{
+	display: none;
+}
