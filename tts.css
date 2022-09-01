@@ -49,6 +49,17 @@ ul li.active a{
 
 }
 
+#fidele{
+	margin-left: 70%;
+}
+p {
+	font-size: 15px;
+  }
+.coffiddle{
+	border-color: #000;
+	border-width: 5px;
+
+}
 .btn-upload{
 	cursor: pointer;
 	margin-top: 1%;
