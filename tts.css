@@ -5,9 +5,11 @@
 }
 
 body{
+	height: 0vh;
 	background-image: url(images/bg.jpg);
-	height: 100vh;
 	background-size: cover;
+	margin-bottom: 1000px;
+
 
 }
 
@@ -50,7 +52,9 @@ ul li.active a{
 }
 
 #fidele{
-	margin-left: 70%;
+	margin-left: 78%;
+	margin-bottom: auto;
+	margin-top: 5%;
 }
 p {
 	font-size: 15px;
@@ -63,11 +67,13 @@ p {
 .btn-upload{
 	cursor: pointer;
 	margin-top: 1%;
-	margin-left: 86%;
+	margin-left: 89%;
     background-color: transparent ;
-    border-width: 0px;
-    border-radius: 15px;
 	transition: 0.6s ease;
+	border-width: 0ch;
+	height: auto;
+	font-size: large;
+	font-family: Century Gothic;
 }
 .btn-upload :hover{
 	opacity: 50%;
@@ -86,7 +92,6 @@ p {
 	width: 90%;
 	height:200px;
 	border-radius: 7px;
-	margin-top: 5%;
 	padding: 5px;
 	border: white;
 }
@@ -101,22 +106,21 @@ p {
 .block{
 	width: 100px;
 	display: inline-block;
-		padding: 0px 150px;
+	padding: 0px 150px;
 }
 .btn-generate{
 	margin-left: 5%;
 }
 .btn-holder{
+	margin-top: 3%;
 	background-color: #eef2fb;
-	width: 60%;
-	margin-left: 20%;
-	display: list-item;
+	margin-left: 10%;
+	margin-right: 10%;
 	border-radius: 30px;
+    height: auto;
+	padding-bottom: 50px;
 }
-.upload{
-	padding: 0px 10px;
 
-}
 .btn-generate .audio audio{
 	border: #ED3100;
 	border-width: 15px;
