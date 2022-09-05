@@ -3,17 +3,17 @@ var clickHistory = document.getElementById('fidele')
 clickHistory.onchange = function() {
     if (clickHistory.checked) {
         document.getElementById('checker').innerHTML = "true"
-        alert('There are some rules that should applied when writing text to be translate
-     1. For 1st alphabets (ለግዕዝ ) use "e" example: "le" - ለ
-     2. For 2nd alphabets ( ለካእብ ) use "u" example: "lu" - ሉ
-     3. For 3rd alphabets (ለሳልስ ) use "i" example: "li" - ሊ
-     4. For 4rh alphabets (ለራዕብ ) use "a" example: "la" - ላ
-     5. For 5th alphabets (ለሀምስ ) use "ie" example: "lie" - ሌ
-     6. For 6th alphabets (ለሳድስ) use only vowel example: "l" - ል
-     7. For 7th alphabets (ለሳብዕ) use "o" example: "lo" - ሎ
-     8. For 8th alphabets(ለዲቃላ ቃላት) use "ua" example: "ua" - ሏ
-     9. The above rules not works for "አ" and "ሀ" family in "አ" and "ሀ" 4th alphabets are removed because it have the same sound as 1th alphabet
-     10. for "አ" and "ሀ" 1st alphabets uses " a " ') 
+        alert('There are some rules that should applied when writing text to be translate \n',
+     '1. For 1st alphabets (ለግዕዝ ) use "e" example: "le" - ለ \n',
+     '2. For 2nd alphabets ( ለካእብ ) use "u" example: "lu" - ሉ \n',
+     '3. For 3rd alphabets (ለሳልስ ) use "i" example: "li" - ሊ \n ',
+     '4. For 4rh alphabets (ለራዕብ ) use "a" example: "la" - ላ \n ',
+     '5. For 5th alphabets (ለሀምስ ) use "ie" example: "lie" - ሌ \n ',
+     '6. For 6th alphabets (ለሳድስ) use only vowel example: "l" - ል \n ',
+     '7. For 7th alphabets (ለሳብዕ) use "o" example: "lo" - ሎ \n ',
+     '8. For 8th alphabets(ለዲቃላ ቃላት) use "ua" example: "ua" - ሏ \n ',
+     '9. The above rules not works for "አ" and "ሀ" family in "አ" and "ሀ" 4th alphabets are removed because it have the same sound as 1th alphabet \n',
+     '10. for "አ" and "ሀ" 1st alphabets uses " a ') 
     }
     else{
         document.getElementById('checker').innerHTML = "false"
